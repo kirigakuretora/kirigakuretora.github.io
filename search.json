@@ -4,7 +4,28 @@
     "href": "TaiwanPowerCompany.html",
     "title": "台灣電力公司",
     "section": "",
-    "text": "憑證樣式1：一般用戶繳費憑證\n\n\n\n\n\n憑證樣式2：高壓電力用戶\n\n\n\n\n\n憑證樣式3：一般用戶轉帳代收\n\n\n\n【01】稅局公文\n\n財政部\n\n台財稅第37272號 (當年度已開立支出憑證者不得於次年付款時以過期帳列支)\n台財稅字第780276657號 (營業人承租不動產繳納水電費之收據准予申報扣抵)\n台財稅字第10404525110號 (修正「統一發票使用辦法」第四條、第五條之一、第三十二條)\n台財稅字第10500706630號 (核釋「加值型及非加值型營業稅法」第33條規定，有關財政部78年9月9日台財稅第780276657號函適用範圍)\n台財稅字第10500706631號\n\n台灣電力股份有限公司\n\n電配售部業字第1078030231號 (奉准調整本公司各類用電電價如公告事項,自107年4月1日0時起調整)\n\n\n\n\n【02】計算公式\n\\[\n  \\text {(11) 用電度數}  *  \\frac{\\text {(12) 夏季電價}}{\\text {(13) 用電日數}}+\\text {(11) 用電度數}  *  \\frac{\\text {(14) 非夏季電價}}{\\text {(13) 用電日數}}\n\\] \\[\n  (\\text {(11) 用電度數}  *  \\frac{\\text {(12) 夏季電價}}{\\text {(13) 用電日數}}+\\text {(11) 用電度數}  *  \\frac{\\text {(14) 非夏季電價}}{\\text {(13) 用電日數}})* 5\\%\n\\] \\[\n  \\text {(11) 用電度數}  *  \\frac{\\text {(12) 夏季電價}}{\\text {(13) 用電日數}}+\\text {(11) 用電度數}  *  \\frac{\\text {(14) 非夏季電價}}{\\text {(13) 用電日數}} + \\text {(15) 分攤公共電費}\n\\] \\[\n  (\\text {(11) 用電度數}  *  \\frac{\\text {(12) 夏季電價}}{\\text {(13) 用電日數}}+\\text {(11) 用電度數}  *  \\frac{\\text {(14) 非夏季電價}}{\\text {(13) 用電日數}} + \\text {(15) 分攤公共電費})* 5\\%\n\\]"
+    "text": "憑證樣式1：一般用戶繳費憑證"
+  },
+  {
+    "objectID": "TaiwanPowerCompany.html#當年度",
+    "href": "TaiwanPowerCompany.html#當年度",
+    "title": "台灣電力公司",
+    "section": "【031-1】當年度",
+    "text": "【031-1】當年度\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx"
+  },
+  {
+    "objectID": "TaiwanPowerCompany.html#跨年度",
+    "href": "TaiwanPowerCompany.html#跨年度",
+    "title": "台灣電力公司",
+    "section": "【031-2】跨年度",
+    "text": "【031-2】跨年度\n本年度：\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n跨年度：\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(13)進項稅額\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(14)銀行存款\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx"
+  },
+  {
+    "objectID": "TaiwanPowerCompany.html#帳單登記用戶非實際用戶",
+    "href": "TaiwanPowerCompany.html#帳單登記用戶非實際用戶",
+    "title": "台灣電力公司",
+    "section": "【032】帳單登記用戶非實際用戶",
+    "text": "【032】帳單登記用戶非實際用戶\n檢視不動產租賃合約記載用戶，或檢視水電費分攤計算表\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx"
   },
   {
     "objectID": "EnterpriseIncomeTax.html",
