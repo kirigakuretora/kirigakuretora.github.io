@@ -28,6 +28,20 @@
     "text": "【032】帳單登記用戶非實際用戶\n檢視不動產租賃合約記載用戶，或檢視水電費分攤計算表\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx"
   },
   {
+    "objectID": "TaiwanPowerCompany.html#暫估電費次期實際電費少於暫估電費",
+    "href": "TaiwanPowerCompany.html#暫估電費次期實際電費少於暫估電費",
+    "title": "台灣電力公司",
+    "section": "【033-1】暫估電費，次期實際電費少於暫估電費",
+    "text": "【033-1】暫估電費，次期實際電費少於暫估電費\n紫色繳費單適用\n本期：\n\n\n(11E)郵電費暫估\n\n\n\nDebit\nCredit\n\n\n\n\n01月31日:xx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\n01月31日:xx\n\n\n\n\n\n次期：\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n02月01日:xx\n\n\n\n\n\n\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\n\n02月01日:xx\n\n\n\n\n\n\n\n(13)進項稅額\n\n\n\nDebit\nCredit\n\n\n\n\n\n02月01日:xx\n\n\n\n\n\n\n\n(14)銀行存款\n\n\n\nDebit\nCredit\n\n\n\n\n\n02月01日:xx"
+  },
+  {
+    "objectID": "TaiwanPowerCompany.html#暫估電費次期實際電費多於暫估電費",
+    "href": "TaiwanPowerCompany.html#暫估電費次期實際電費多於暫估電費",
+    "title": "台灣電力公司",
+    "section": "【033-2】暫估電費，次期實際電費多於暫估電費",
+    "text": "【033-2】暫估電費，次期實際電費多於暫估電費\n紫色繳費單適用\n本期：\n\n\n(11E)郵電費暫估\n\n\n\nDebit\nCredit\n\n\n\n\n01月31日:xx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\n01月31日:xx\n\n\n\n\n\n次期：\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n02月01日:xx\n\n\n\n\n\n\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\n\n02月01日:xx\n\n\n\n\n\n\n\n(13)進項稅額\n\n\n\nDebit\nCredit\n\n\n\n\n\n02月01日:xx\n\n\n\n\n\n\n\n(14)銀行存款\n\n\n\nDebit\nCredit\n\n\n\n\n\n02月01日:xx"
+  },
+  {
     "objectID": "Naturalgas.html",
     "href": "Naturalgas.html",
     "title": "天然氣",
@@ -42,8 +56,8 @@
     "text": "(11)水電瓦斯費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)銀行存款\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx"
   },
   {
-    "objectID": "Naturalgas.html#更替瓦斯錶",
-    "href": "Naturalgas.html#更替瓦斯錶",
+    "objectID": "Naturalgas.html#更替瓦斯錶膜式氣量計",
+    "href": "Naturalgas.html#更替瓦斯錶膜式氣量計",
     "title": "天然氣",
     "section": "",
     "text": "(11)水電瓦斯費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)計量表\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(13)銀行存款\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx"
