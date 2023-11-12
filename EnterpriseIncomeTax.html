@@ -143,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./Regulation.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">科目餘額調節表</span></a>
+ <span class="menu-text">稅務調節表</span></a>
   </div>
 </li>
       </ul>
@@ -271,6 +271,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#dotnet-framework安裝" id="toc-dotnet-framework安裝" class="nav-link" data-scroll-target="#dotnet-framework安裝">【052-3】dotNet Framework安裝</a></li>
   <li><a href="#申報檔案純文字檔案編碼變更big5轉utf-8" id="toc-申報檔案純文字檔案編碼變更big5轉utf-8" class="nav-link" data-scroll-target="#申報檔案純文字檔案編碼變更big5轉utf-8">【052-4】申報檔案純文字檔案編碼變更(Big5轉Utf-8)</a></li>
   <li><a href="#utf-8-bom-檢查" id="toc-utf-8-bom-檢查" class="nav-link" data-scroll-target="#utf-8-bom-檢查">【052-4】UTF-8 BOM 檢查</a></li>
+  <li><a href="#trailing-whitespaceleading-whitespace-行尾行前空白檢查" id="toc-trailing-whitespaceleading-whitespace-行尾行前空白檢查" class="nav-link" data-scroll-target="#trailing-whitespaceleading-whitespace-行尾行前空白檢查">【052-4】Trailing Whitespace、Leading Whitespace 行尾行前空白檢查</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -351,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="擴大書審純益率標準" class="level2">
 <h2 class="anchored" data-anchor-id="擴大書審純益率標準">【033】擴大書審純益率標準</h2>
 <p><span class="math display">\[
-  \text {(14) 稅額} = (\text {(11) 營業收入} ＋ \text {(12) 營業收入}）* \text {(13) 擴大書審申報純益率}
+  \text {(14) 稅額} = (\text {(11) 營業收入} + \text {(12) 營業外收入}）* \text {(13) 擴大書審申報純益率}
 \]</span> <span class="math display">\[
    \text{(16) 應納稅額} = \text{(14) 稅額} * 20\%
 \]</span></p>
@@ -445,11 +446,14 @@ ul.task-list li input[type="checkbox"] {
 <p>system.text.encoding</p>
 <ul>
 <li>https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding?view=net-7.0</li>
+<li>https://dobon.net/vb/dotnet/string/getencodingobject.html</li>
 </ul>
 <p>dotnet Core寫作時，注意system.text.encoding (需要System.Text.Encoding.CodePages)</p>
 <ul>
 <li>https://dotblogs.com.tw/supershowwei/2022/02/20/114914</li>
+<li>https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding.codepage?view=net-7.0</li>
 </ul>
+<p>﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</p>
 <p><strong>▍ VBA程式寫作注意事項：</strong></p>
 <p>ADODB.Stream (限定UTF-8)</p>
 <ul>
@@ -459,15 +463,42 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/filesystemobject-object</li>
 </ul>
+<p>﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</p>
 </section>
 <section id="utf-8-bom-檢查" class="level3">
 <h3 class="anchored" data-anchor-id="utf-8-bom-檢查">【052-4】UTF-8 BOM 檢查</h3>
 <p>專有名詞0xEF 0xBB 0xBF，用以標示檔案是以UTF-8、UTF-16或UTF-32編碼</p>
 <p><strong>▍ C#程式寫作注意事項：</strong></p>
 <p>System.Text.Encoding.UTF8Encoding()</p>
+<ul>
+<li>https://learn.microsoft.com/en-us/dotnet/api/system.text.utf8encoding?view=net-7.0</li>
+<li>https://dobon.net/vb/dotnet/string/getencodingobject.html</li>
+</ul>
 <p>dotNET Core 6之後版本設定無此問題</p>
+<p>﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</p>
 <p><strong>▍ VBA程式寫作注意事項：</strong></p>
-<p>VBA:Position =3</p>
+<p>VBA:Position=3</p>
+<p>﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</p>
+</section>
+<section id="trailing-whitespaceleading-whitespace-行尾行前空白檢查" class="level3">
+<h3 class="anchored" data-anchor-id="trailing-whitespaceleading-whitespace-行尾行前空白檢查">【052-4】Trailing Whitespace、Leading Whitespace 行尾行前空白檢查</h3>
+<p>人工製作Notepad、Excel CSV檔案匯入時將不必要Character字元給移除</p>
+<p><strong>▍ C#程式寫作注意事項：</strong></p>
+<p>System.String.TrimStart()</p>
+<ul>
+<li>https://learn.microsoft.com/en-us/dotnet/api/system.string.trimstart?view=net-7.0</li>
+<li>https://dobon.net/vb/dotnet/string/trim.html</li>
+</ul>
+<p>System.String.TrimEnd()</p>
+<ul>
+<li>https://learn.microsoft.com/en-us/dotnet/api/system.string.trimend?view=net-7.0</li>
+<li>https://dobon.net/vb/dotnet/string/trim.html</li>
+</ul>
+<p>String.Replace()</p>
+<ul>
+<li>https://learn.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-7.0</li>
+<li>https://dobon.net/vb/dotnet/string/replace.html ﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</li>
+</ul>
 
 
 </section>

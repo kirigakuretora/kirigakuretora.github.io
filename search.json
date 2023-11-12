@@ -102,7 +102,7 @@
     "href": "EnterpriseIncomeTax.html#擴大書審純益率標準",
     "title": "營利事業所得稅申報",
     "section": "【033】擴大書審純益率標準",
-    "text": "【033】擴大書審純益率標準\n\\[\n  \\text {(14) 稅額} = (\\text {(11) 營業收入} ＋ \\text {(12) 營業收入}）* \\text {(13) 擴大書審申報純益率}\n\\] \\[\n   \\text{(16) 應納稅額} = \\text{(14) 稅額} * 20\\%\n\\]"
+    "text": "【033】擴大書審純益率標準\n\\[\n  \\text {(14) 稅額} = (\\text {(11) 營業收入} + \\text {(12) 營業外收入}）* \\text {(13) 擴大書審申報純益率}\n\\] \\[\n   \\text{(16) 應納稅額} = \\text{(14) 稅額} * 20\\%\n\\]"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#對照表",
@@ -137,14 +137,28 @@
     "href": "EnterpriseIncomeTax.html#申報應用程式預設值",
     "title": "營利事業所得稅申報",
     "section": "【052】申報應用程式預設值",
-    "text": "【052】申報應用程式預設值\n\n【052-1】備份申報檔案預設路徑\n(DriverName):/Data/tmp/（PeaTdb+西元徑年月日時分秒）.trc\n\n\n【052-1】系統預設儲存檔案預設值\nWindows Registry 有以下地方需要檢查：\n\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folfer\n\n\n\n【052-2】變更申報檔案純文字檔案預設程式\nWindows Registry 有以下地方需要檢查：\n\nHKEY_USERS\\S-1-5-21-2971007210-3119629156-231266564-1001_Classes\nHKEY_CURRENT_USER\\Software\\Microsoft\\ApplicationAssociationToasts\nHKEY_CURRENT_USER\\Software\\Microsoft\\CurrentVersion\\Explorer\\FileExts\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\Shell\\Associations\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\UserSignedIn\nHKEY_CURRENT_USER\\Software\\Classes\\申報檔案純文字檔案副檔名_auto_file\nHKEY_CURRENT_USER\\Software\\Classes\\申報檔案純文字檔案副檔名\n\nWindows 10 Registry 有以下地方需要檢查：\n\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\Roamin\\OpenWith\\FileExts\\申報檔案純文字檔案副檔名\n\n\n\n【052-3】申報應用程式安裝過程紀錄\n於Cmd執行以下命令：\nPEAINSTALL.exe/Log=“(DriveName):/FolderAddress/LogFileName”\n\n\n【052-3】dotNet Framework安裝\n安裝申報應用程式前確認使用者環境是否已經安裝以下基礎：\n\n4.81:ndp481-x86-x64-allos-enu\n4.8:ndp48-x86-x64-allos-enu\n4.72:ndp472-kb4054530-x86-x64-allos-enu\n4.71:ndp471-kb4033342-x86-x64-allos-enu\n\n\n\n【052-4】申報檔案純文字檔案編碼變更(Big5轉Utf-8)\n上傳國稅局檔案規格為Utf-8，確認純文字檔案儲存時使用的應用程式為Notepad或者Excel?Notepad預設規格為UTF-16，Excel預設規格為UTF-8\n▍ C#程式寫作注意事項：\nsystem.text.encoding\n\nhttps://learn.microsoft.com/en-us/dotnet/api/system.text.encoding?view=net-7.0\n\ndotnet Core寫作時，注意system.text.encoding (需要System.Text.Encoding.CodePages)\n\nhttps://dotblogs.com.tw/supershowwei/2022/02/20/114914\n\n▍ VBA程式寫作注意事項：\nADODB.Stream (限定UTF-8)\n\nhttps://learn.microsoft.com/en-us/sql/ado/reference/ado-api/stream-object-properties-methods-and-events?view=sql-server-ver16\n\nScripting.FileSystemObject\n\nhttps://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/filesystemobject-object\n\n\n\n【052-4】UTF-8 BOM 檢查\n專有名詞0xEF 0xBB 0xBF，用以標示檔案是以UTF-8、UTF-16或UTF-32編碼\n▍ C#程式寫作注意事項：\nSystem.Text.Encoding.UTF8Encoding()\ndotNET Core 6之後版本設定無此問題\n▍ VBA程式寫作注意事項：\nVBA:Position =3"
+    "text": "【052】申報應用程式預設值\n\n【052-1】備份申報檔案預設路徑\n(DriverName):/Data/tmp/（PeaTdb+西元徑年月日時分秒）.trc\n\n\n【052-1】系統預設儲存檔案預設值\nWindows Registry 有以下地方需要檢查：\n\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folfer\n\n\n\n【052-2】變更申報檔案純文字檔案預設程式\nWindows Registry 有以下地方需要檢查：\n\nHKEY_USERS\\S-1-5-21-2971007210-3119629156-231266564-1001_Classes\nHKEY_CURRENT_USER\\Software\\Microsoft\\ApplicationAssociationToasts\nHKEY_CURRENT_USER\\Software\\Microsoft\\CurrentVersion\\Explorer\\FileExts\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\Shell\\Associations\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\UserSignedIn\nHKEY_CURRENT_USER\\Software\\Classes\\申報檔案純文字檔案副檔名_auto_file\nHKEY_CURRENT_USER\\Software\\Classes\\申報檔案純文字檔案副檔名\n\nWindows 10 Registry 有以下地方需要檢查：\n\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\Roamin\\OpenWith\\FileExts\\申報檔案純文字檔案副檔名\n\n\n\n【052-3】申報應用程式安裝過程紀錄\n於Cmd執行以下命令：\nPEAINSTALL.exe/Log=“(DriveName):/FolderAddress/LogFileName”\n\n\n【052-3】dotNet Framework安裝\n安裝申報應用程式前確認使用者環境是否已經安裝以下基礎：\n\n4.81:ndp481-x86-x64-allos-enu\n4.8:ndp48-x86-x64-allos-enu\n4.72:ndp472-kb4054530-x86-x64-allos-enu\n4.71:ndp471-kb4033342-x86-x64-allos-enu\n\n\n\n【052-4】申報檔案純文字檔案編碼變更(Big5轉Utf-8)\n上傳國稅局檔案規格為Utf-8，確認純文字檔案儲存時使用的應用程式為Notepad或者Excel?Notepad預設規格為UTF-16，Excel預設規格為UTF-8\n▍ C#程式寫作注意事項：\nsystem.text.encoding\n\nhttps://learn.microsoft.com/en-us/dotnet/api/system.text.encoding?view=net-7.0\nhttps://dobon.net/vb/dotnet/string/getencodingobject.html\n\ndotnet Core寫作時，注意system.text.encoding (需要System.Text.Encoding.CodePages)\n\nhttps://dotblogs.com.tw/supershowwei/2022/02/20/114914\nhttps://learn.microsoft.com/en-us/dotnet/api/system.text.encoding.codepage?view=net-7.0\n\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n▍ VBA程式寫作注意事項：\nADODB.Stream (限定UTF-8)\n\nhttps://learn.microsoft.com/en-us/sql/ado/reference/ado-api/stream-object-properties-methods-and-events?view=sql-server-ver16\n\nScripting.FileSystemObject\n\nhttps://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/filesystemobject-object\n\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n\n\n【052-4】UTF-8 BOM 檢查\n專有名詞0xEF 0xBB 0xBF，用以標示檔案是以UTF-8、UTF-16或UTF-32編碼\n▍ C#程式寫作注意事項：\nSystem.Text.Encoding.UTF8Encoding()\n\nhttps://learn.microsoft.com/en-us/dotnet/api/system.text.utf8encoding?view=net-7.0\nhttps://dobon.net/vb/dotnet/string/getencodingobject.html\n\ndotNET Core 6之後版本設定無此問題\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n▍ VBA程式寫作注意事項：\nVBA:Position=3\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n\n\n【052-4】Trailing Whitespace、Leading Whitespace 行尾行前空白檢查\n人工製作Notepad、Excel CSV檔案匯入時將不必要Character字元給移除\n▍ C#程式寫作注意事項：\nSystem.String.TrimStart()\n\nhttps://learn.microsoft.com/en-us/dotnet/api/system.string.trimstart?view=net-7.0\nhttps://dobon.net/vb/dotnet/string/trim.html\n\nSystem.String.TrimEnd()\n\nhttps://learn.microsoft.com/en-us/dotnet/api/system.string.trimend?view=net-7.0\nhttps://dobon.net/vb/dotnet/string/trim.html\n\nString.Replace()\n\nhttps://learn.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-7.0\nhttps://dobon.net/vb/dotnet/string/replace.html ﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍"
   },
   {
     "objectID": "CableTV.html",
     "href": "CableTV.html",
     "title": "有線電視",
     "section": "",
-    "text": "【01】稅局公文\n\n財政部\n\n台財稅第831618906號 (有線電視系統經營者與節目播送系統業者之播映收入非課稅範圍)"
+    "text": "財政部\n\n台財稅第831618906號 (有線電視系統經營者與節目播送系統業者之播映收入非課稅範圍)"
+  },
+  {
+    "objectID": "CableTV.html#當年度",
+    "href": "CableTV.html#當年度",
+    "title": "有線電視",
+    "section": "【031】當年度",
+    "text": "【031】當年度\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx"
+  },
+  {
+    "objectID": "CableTV.html#安裝施工",
+    "href": "CableTV.html#安裝施工",
+    "title": "有線電視",
+    "section": "【032】安裝施工",
+    "text": "【032】安裝施工\n當年度有線電視費用\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n申辦附加服務\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n收到申辦附加服務發票\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(13)存出保證金\n\n\n\nDebit\nCredit\n\n\n\n\nxx (12)+(13)\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n\n\n(14)現金\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx (12)+(14)"
   },
   {
     "objectID": "RealEstate.html",
