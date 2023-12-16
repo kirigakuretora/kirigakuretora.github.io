@@ -42,6 +42,83 @@
     "text": "【033-2】暫估電費，次期實際電費少於暫估電費\n紫色繳費單適用\n本期：\n\n\n(11E)郵電費暫估\n\n\n\nDebit\nCredit\n\n\n\n\n01月31日:xx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\n01月31日:xx\n\n\n\n\n\n次期：\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n02月01日:xx\n\n\n\n\n\n\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\n\n02月01日:xx\n\n\n\n\n\n\n\n(13)進項稅額\n\n\n\nDebit\nCredit\n\n\n\n\n\n02月01日:xx\n\n\n\n\n\n\n\n(14)銀行存款\n\n\n\nDebit\nCredit\n\n\n\n\n\n02月01日:xx"
   },
   {
+    "objectID": "SalesTax.html",
+    "href": "SalesTax.html",
+    "title": "營業稅申報",
+    "section": "",
+    "text": "401表：一般營業人，每年1月、3月、5月、7月、9月、11月，15日前。\n403表：一般營業人有其他營業外理財商品收入支出，每年1月、3月、5月、7月、9月、11月，15日前。\n404表：金融業營業人，較少見。\n405表：小額營業人，每年3月、6月、9月、12月，15日前。\n\n\n\n\n\n首次年配資格之營業人，每年11月。\n具年配資格之營業人，每年12月初，前一年度字軌號碼無本數異動需求營業人優先前一年度字軌號碼有異動需求營業人。\n具期配資格之營業人，每年12月中。"
+  },
+  {
+    "objectID": "SalesTax.html#申報進銷項目",
+    "href": "SalesTax.html#申報進銷項目",
+    "title": "營業稅申報",
+    "section": "",
+    "text": "401表：一般營業人，每年1月、3月、5月、7月、9月、11月，15日前。\n403表：一般營業人有其他營業外理財商品收入支出，每年1月、3月、5月、7月、9月、11月，15日前。\n404表：金融業營業人，較少見。\n405表：小額營業人，每年3月、6月、9月、12月，15日前。"
+  },
+  {
+    "objectID": "SalesTax.html#電子發票配號作業",
+    "href": "SalesTax.html#電子發票配號作業",
+    "title": "營業稅申報",
+    "section": "",
+    "text": "首次年配資格之營業人，每年11月。\n具年配資格之營業人，每年12月初，前一年度字軌號碼無本數異動需求營業人優先前一年度字軌號碼有異動需求營業人。\n具期配資格之營業人，每年12月中。"
+  },
+  {
+    "objectID": "SalesTax.html#統一發票英文字軌組",
+    "href": "SalesTax.html#統一發票英文字軌組",
+    "title": "營業稅申報",
+    "section": "【041】統一發票英文字軌組",
+    "text": "【041】統一發票英文字軌組\n\n\n\n書面1：統一發票英文字軌組書面\n\n\n表1：統一發票英文字軌組\n\n\n\n\n\n\n欄位名稱\n\n\n\n\n● (1) 月份● (2A) 乙種統一發票字軌；二聯式發票、二聯式加副聯發票● (2B) 甲種統一發票字軌；三聯式發票、三聯式加副聯發票● (3A) 甲種統一發票字軌；三聯式收銀機發票 ● (3B) 乙種統一發票字軌；二聯式收銀機發票● (4A) 甲種統一發票字軌；非適用一般稅額特種二聯發票● (4B) 丙種統一發票字軌；營業人自行印製二聯收銀機發票● (5) 丁種統一發票字軌；電子發票\n\n\n\n\n\n\n(1)\n(2A)\n(2B)\n(3A)\n(3B)\n(4A)\n(4B)\n(5)\n\n\n\n\n11201\nJA~JA\nHY~HY\nHZ~HZ\nJB~JD\nJA~JA\nKX~KX\nJE~KW\n\n\n11202\nJA~JA\nHY~HY\nHZ~HZ\nJB~JD\nJA~JA\nKX~KX\nJE~KW\n\n\n11203\nLA~LA\nKY~KY\nKZ~KZ\nLB~LD\nLA~LA\nMX~MX\nLE~MW\n\n\n11204\nLA~LA\nKY~KY\nKZ~KZ\nLB~LD\nLA~LA\nMX~MX\nLE~MW\n\n\n11205\nNA~NA\nMY~MY\nMZ~MZ\nNB~ND\nNA~NA\nPX~PX\nNE~PW\n\n\n11206\nNA~NA\nMY~MY\nMZ~MZ\nNB~ND\nNA~NA\nPX~PX\nNE~PW\n\n\n11207\nQA~QA\nPY~PY\nPZ~PZ\nQB~QD\nQA~QA\nRX~RX\nQE~RW\n\n\n11208\nQA~QA\nPY~PY\nPZ~PZ\nQB~QD\nQA~QA\nRX~RX\nQE~RW\n\n\n11209\nSA~SA\nRY~RY\nRZ~RZ\nSB~SD\nSA~SA\nTX~TX\nSE~TW\n\n\n11210\nSA~SA\nRY~RY\nRZ~RZ\nSB~SD\nSA~SA\nTX~TX\nSE~TW\n\n\n11211\nUA~UA\nTY~TY\nTZ~TZ\nUB~UD\nUA~UA\nVX~VX\nUE~VW\n\n\n11212\nUA~UA\nTY~TY\nTZ~TZ\nUB~UD\nUA~UA\nVX~VX\nUE~VW\n\n\n11301\nWA~WA\nVY~VY\nVZ~VZ\nWB~WD\nWA~WA\nXW~XW\nWE~XV\n\n\n11302\nWA~WA\nVY~VY\nVZ~VZ\nWB~WD\nWA~WA\nXW~XW\nWE~XV\n\n\n11303\nXZ~XZ\nXX~XX\nXY~XY\nYA~YC\nXZ~XZ\nZV~ZV\nYD~ZU\n\n\n11304\nXZ~XZ\nXX~XX\nXY~XY\nYA~YC\nXZ~XZ\nZV~ZV\nYD~ZU\n\n\n11305\nZY~ZY\nZW~ZW\nZX~ZX\nZZ~AB\nZY~ZY\nBV~BV\nAC~BU\n\n\n11306\nZY~ZY\nZW~ZW\nZX~ZX\nZZ~AB\nZY~ZY\nBV~BV\nAC~BU\n\n\n11307\nBY~BY\nBW~BW\nBX~BX\nBZ~CB\nBY~BY\nDU~DU\nCC~DT\n\n\n11308\nBY~BY\nBW~BW\nBX~BX\nBZ~CB\nBY~BY\nDU~DU\nCC~DT\n\n\n11309\nDX~DX\nDV~DV\nDW~DW\nDY~EA\nDX~DX\nFT~FT\nEB~FS\n\n\n11310\nDX~DX\nDV~DV\nDW~DW\nDY~EA\nDX~DX\nFT~FT\nEB~FS\n\n\n11311\nFW~FW\nFU~FU\nFV~FV\nFX~FZ\nFW~FW\nHS~HS\nGA~HR\n\n\n11312\nFW~FW\nFU~FU\nFV~FV\nFX~FZ\nFW~FW\nHS~HS\nGA~HR"
+  },
+  {
+    "objectID": "SalesTax.html#申報書",
+    "href": "SalesTax.html#申報書",
+    "title": "營業稅申報",
+    "section": "【042】申報書",
+    "text": "【042】申報書\n\n營業人使用三聯式統一發票明細表\n營業人使用二聯式統一發票明細表\n公用事業進項憑證明細表(專供雲端發票使用)\n進項憑證封面"
+  },
+  {
+    "objectID": "SalesTax.html#線上網站",
+    "href": "SalesTax.html#線上網站",
+    "title": "營業稅申報",
+    "section": "【051】線上網站",
+    "text": "【051】線上網站\n\n財政部電子發票整合服務平台"
+  },
+  {
+    "objectID": "SalesTax.html#代收票據紀錄簿",
+    "href": "SalesTax.html#代收票據紀錄簿",
+    "title": "營業稅申報",
+    "section": "【061】代收票據紀錄簿",
+    "text": "【061】代收票據紀錄簿\n多筆支票適用，有次一營業日以前到期的交換票據次交票，到期日當日支票本交票，支票是否與銀行帳戶都屬同一家行庫外埠票細節。"
+  },
+  {
+    "objectID": "SalesTax.html#加權平均值",
+    "href": "SalesTax.html#加權平均值",
+    "title": "營業稅申報",
+    "section": "【062】加權平均值",
+    "text": "【062】加權平均值\n英文名weighted mean，可用於outstanding shares流通在外股數驗證。EPS報表驗證。"
+  },
+  {
+    "objectID": "RealEstate.html",
+    "href": "RealEstate.html",
+    "title": "不動產",
+    "section": "",
+    "text": "【01】稅局公文\n\n衛福部\n\n衛部保字第1041260973號 (修正「全民健康保險費率」之一般保險費費率及補充保險費費率)\n\n\n內政部\n\n內授中辦地字第1051305384號 (訂定「房屋租賃定型化契約應記載及不得記載事項」，並自中華民國一百零六年一月一日生效)\n\n台內地字第1090264203號 (修正「房屋租賃定型化契約應記載及不得記載事項」，名稱並修正為「住宅租賃定型化契約應記載及不得記載事項」，自中華民國一百零九年九月一日生效。)\n\n台內地字第1120118852號 (修正「住宅租賃定型化契約應記載及不得記載事項」不得記載事項第十點，自即日生效)"
+  },
+  {
+    "objectID": "Petrochemistry.html",
+    "href": "Petrochemistry.html",
+    "title": "油品",
+    "section": "",
+    "text": "\\[\n  \\text {(13) 每1立方公分油品} =  \\frac{\\text {(11) 1}}{\\text {(12) 油品價格}}\n\\] \\[\n  \\text {(15) 進位點}  =  \\frac{\\text {(14) 2}}{\\text {(13) 每1立方公分油品}}\n\\] \\[\n  \\text {(16) 金額} = \\text {(15) 購買油品量} * \\text {(12) 油品價格}\n\\] \\[\n  \\text {(17) 進位點後} =  \\frac{\\text {(16R) 金額無條件進位}}{\\text {(12) 油品價格}}\n\\] \\[\n   \\text{(18) 進位點前} = \\text{(15) 購買油品量} - \\text {(17) 進位點後}\n\\] \\[\n  \\text {(19) 稅後金額} =  \\text {(16) 金額} * 5\\%\n\\]"
+  },
+  {
+    "objectID": "Petrochemistry.html#購買油品",
+    "href": "Petrochemistry.html#購買油品",
+    "title": "油品",
+    "section": "【03】購買油品",
+    "text": "【03】購買油品\n\n\n(11)燃料費\n\n\n\nDebit\nCredit\n\n\n\n\n(11)\n\n\n\n\n\n\n\n\n(12)進項稅額\n\n\n\nDebit\nCredit\n\n\n\n\n(12)\n\n\n\n\n\n\n\n\n(13)現金\n\n\n\nDebit\nCredit\n\n\n\n\n\n(11)+(12)"
+  },
+  {
     "objectID": "Naturalgas.html",
     "href": "Naturalgas.html",
     "title": "天然氣",
@@ -159,34 +236,6 @@
     "title": "有線電視",
     "section": "【032】安裝施工",
     "text": "【032】安裝施工\n當年度有線電視費用\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n申辦附加服務\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n收到申辦附加服務發票\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(13)存出保證金\n\n\n\nDebit\nCredit\n\n\n\n\nxx (12)+(13)\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n\n\n(14)現金\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx (12)+(14)"
-  },
-  {
-    "objectID": "RealEstate.html",
-    "href": "RealEstate.html",
-    "title": "不動產",
-    "section": "",
-    "text": "【01】稅局公文\n\n衛福部\n\n衛部保字第1041260973號 (修正「全民健康保險費率」之一般保險費費率及補充保險費費率)\n\n\n內政部\n\n內授中辦地字第1051305384號 (訂定「房屋租賃定型化契約應記載及不得記載事項」，並自中華民國一百零六年一月一日生效)\n\n台內地字第1090264203號 (修正「房屋租賃定型化契約應記載及不得記載事項」，名稱並修正為「住宅租賃定型化契約應記載及不得記載事項」，自中華民國一百零九年九月一日生效。)\n\n台內地字第1120118852號 (修正「住宅租賃定型化契約應記載及不得記載事項」不得記載事項第十點，自即日生效)"
-  },
-  {
-    "objectID": "SalesTax.html",
-    "href": "SalesTax.html",
-    "title": "營業稅申報",
-    "section": "",
-    "text": "401表：一般營業人，每年1月、3月、5月、7月、9月、11月\n403表：小額營業人，每年3月、6月、9月、12月"
-  },
-  {
-    "objectID": "SalesTax.html#統一發票英文字軌組",
-    "href": "SalesTax.html#統一發票英文字軌組",
-    "title": "營業稅申報",
-    "section": "【041】統一發票英文字軌組",
-    "text": "【041】統一發票英文字軌組\n\n\n\n書面1：統一發票英文字軌組書面\n\n\n表1：統一發票英文字軌組\n\n\n\n\n\n\n欄位名稱\n\n\n\n\n● (1) 月份● (2A) 乙種統一發票字軌；二聯式發票● (2B) 甲種統一發票字軌；三聯式發票● (3A) 甲種統一發票字軌；三聯式收銀機發票 ● (3B) 乙種統一發票字軌；二聯式收銀機發票● (4A) 甲種統一發票字軌；非適用一般稅額特種二聯發票● (4B) 丙種統一發票字軌；非適用一般稅額特種三聯發票● (5) 丁種統一發票字軌；電子發票\n\n\n\n\n\n\n(1)\n(2A)\n(2B)\n(3A)\n(3B)\n(4A)\n(4B)\n(5)\n\n\n\n\n11201\nJA~JA\nHY~HY\nHZ~HZ\nJB~JD\nJA~JA\nKX~KX\nJE~KW\n\n\n11202\nJA~JA\nHY~HY\nHZ~HZ\nJB~JD\nJA~JA\nKX~KX\nJE~KW\n\n\n11203\nLA~LA\nKY~KY\nKZ~KZ\nLB~LD\nLA~LA\nMX~MX\nLE~MW\n\n\n11204\nLA~LA\nKY~KY\nKZ~KZ\nLB~LD\nLA~LA\nMX~MX\nLE~MW\n\n\n11205\nNA~NA\nMY~MY\nMZ~MZ\nNB~ND\nNA~NA\nPX~PX\nNE~PW\n\n\n11206\nNA~NA\nMY~MY\nMZ~MZ\nNB~ND\nNA~NA\nPX~PX\nNE~PW\n\n\n11207\nQA~QA\nPY~PY\nPZ~PZ\nQB~QD\nQA~QA\nRX~RX\nQE~RW\n\n\n11208\nQA~QA\nPY~PY\nPZ~PZ\nQB~QD\nQA~QA\nRX~RX\nQE~RW\n\n\n11209\nSA~SA\nRY~RY\nRZ~RZ\nSB~SD\nSA~SA\nTX~TX\nSE~TW\n\n\n11210\nSA~SA\nRY~RY\nRZ~RZ\nSB~SD\nSA~SA\nTX~TX\nSE~TW\n\n\n11211\nUA~UA\nTY~TY\nTZ~TZ\nUB~UD\nUA~UA\nVX~VX\nUE~VW\n\n\n11212\nUA~UA\nTY~TY\nTZ~TZ\nUB~UD\nUA~UA\nVX~VX\nUE~VW\n\n\n11301\nWA~WA\nVY~VY\nVZ~VZ\nWB~WD\nWA~WA\nXW~XW\nWE~XV\n\n\n11302\nWA~WA\nVY~VY\nVZ~VZ\nWB~WD\nWA~WA\nXW~XW\nWE~XV\n\n\n11303\nXZ~XZ\nXX~XX\nXY~XY\nYA~YC\nXZ~XZ\nZV~ZV\nYD~ZU\n\n\n11304\nXZ~XZ\nXX~XX\nXY~XY\nYA~YC\nXZ~XZ\nZV~ZV\nYD~ZU\n\n\n11305\nZY~ZY\nZW~ZW\nZX~ZX\nZZ~AB\nZY~ZY\nBV~BV\nAC~BU\n\n\n11306\nZY~ZY\nZW~ZW\nZX~ZX\nZZ~AB\nZY~ZY\nBV~BV\nAC~BU\n\n\n11307\nBY~BY\nBW~BW\nBX~BX\nBZ~CB\nBY~BY\nDU~DU\nCC~DT\n\n\n11308\nBY~BY\nBW~BW\nBX~BX\nBZ~CB\nBY~BY\nDU~DU\nCC~DT\n\n\n11309\nDX~DX\nDV~DV\nDW~DW\nDY~EA\nDX~DX\nFT~FT\nEB~FS\n\n\n11310\nDX~DX\nDV~DV\nDW~DW\nDY~EA\nDX~DX\nFT~FT\nEB~FS\n\n\n11311\nFW~FW\nFU~FU\nFV~FV\nFX~FZ\nFW~FW\nHS~HS\nGA~HR\n\n\n11312\nFW~FW\nFU~FU\nFV~FV\nFX~FZ\nFW~FW\nHS~HS\nGA~HR"
-  },
-  {
-    "objectID": "SalesTax.html#代收票據紀錄簿",
-    "href": "SalesTax.html#代收票據紀錄簿",
-    "title": "營業稅申報",
-    "section": "【061】代收票據紀錄簿",
-    "text": "【061】代收票據紀錄簿\n多筆支票適用，有次一營業日以前到期的交換票據次交票，到期日當日支票本交票，支票是否與銀行帳戶都屬同一家行庫外埠票細節"
   },
   {
     "objectID": "TaiwanWaterCorporation.html",
