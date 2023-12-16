@@ -119,6 +119,13 @@
     "text": "【03】購買油品\n\n\n(11)燃料費\n\n\n\nDebit\nCredit\n\n\n\n\n(11)\n\n\n\n\n\n\n\n\n(12)進項稅額\n\n\n\nDebit\nCredit\n\n\n\n\n(12)\n\n\n\n\n\n\n\n\n(13)現金\n\n\n\nDebit\nCredit\n\n\n\n\n\n(11)+(12)"
   },
   {
+    "objectID": "Petrochemistry.html#線上網站",
+    "href": "Petrochemistry.html#線上網站",
+    "title": "油品",
+    "section": "【041】線上網站",
+    "text": "【041】線上網站\n\n油價資訊管理與分析系統"
+  },
+  {
     "objectID": "Naturalgas.html",
     "href": "Naturalgas.html",
     "title": "天然氣",
@@ -236,6 +243,20 @@
     "title": "有線電視",
     "section": "【032】安裝施工",
     "text": "【032】安裝施工\n當年度有線電視費用\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n申辦附加服務\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n收到申辦附加服務發票\n\n\n(11)郵電費\n\n\n\nDebit\nCredit\n\n\n\n\nxx\n\n\n\n\n\n\n\n\n(13)存出保證金\n\n\n\nDebit\nCredit\n\n\n\n\nxx (12)+(13)\n\n\n\n\n\n\n\n\n(12)應付費用\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx\n\n\n\n\n\n\n\n(14)現金\n\n\n\nDebit\nCredit\n\n\n\n\n\nxx (12)+(14)"
+  },
+  {
+    "objectID": "Project.html",
+    "href": "Project.html",
+    "title": "工程款",
+    "section": "",
+    "text": "當月份進貨\n\n\n(11)進貨\n\n\n\nDebit\nCredit\n\n\n\n\n(11)\n\n\n\n\n\n\n\n\n(12)應付帳款\n\n\n\nDebit\nCredit\n\n\n\n\n\n(12)\n\n\n\n\n\n次月蒙付貨款\n\n\n(12)應付帳款\n\n\n\nDebit\nCredit\n\n\n\n\n(12)\n\n\n\n\n\n\n\n\n(13)現金\n\n\n\nDebit\nCredit\n\n\n\n\n\n(13)\n\n\n\n\n\n應付帳款之分類帳沖帳\n\n\n分類帳: (12) 應付帳款\n\n\n\nDate\nDebit\nCredit\nBalance\n\n\n\n\n\n(12)\n\n\n\n\n\n\n(-12)\n(12)-(-12)=0"
+  },
+  {
+    "objectID": "Project.html#沖帳",
+    "href": "Project.html#沖帳",
+    "title": "工程款",
+    "section": "",
+    "text": "當月份進貨\n\n\n(11)進貨\n\n\n\nDebit\nCredit\n\n\n\n\n(11)\n\n\n\n\n\n\n\n\n(12)應付帳款\n\n\n\nDebit\nCredit\n\n\n\n\n\n(12)\n\n\n\n\n\n次月蒙付貨款\n\n\n(12)應付帳款\n\n\n\nDebit\nCredit\n\n\n\n\n(12)\n\n\n\n\n\n\n\n\n(13)現金\n\n\n\nDebit\nCredit\n\n\n\n\n\n(13)\n\n\n\n\n\n應付帳款之分類帳沖帳\n\n\n分類帳: (12) 應付帳款\n\n\n\nDate\nDebit\nCredit\nBalance\n\n\n\n\n\n(12)\n\n\n\n\n\n\n(-12)\n(12)-(-12)=0"
   },
   {
     "objectID": "TaiwanWaterCorporation.html",
