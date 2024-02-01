@@ -279,6 +279,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">專有名詞縮寫</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./AccounFormula.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">會計專有公式</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -319,8 +325,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#申報檔案純文字檔案編碼變更big5轉utf-8" id="toc-申報檔案純文字檔案編碼變更big5轉utf-8" class="nav-link" data-scroll-target="#申報檔案純文字檔案編碼變更big5轉utf-8">【052-4】申報檔案純文字檔案編碼變更(Big5轉Utf-8)</a></li>
   <li><a href="#utf-8-bom-檢查" id="toc-utf-8-bom-檢查" class="nav-link" data-scroll-target="#utf-8-bom-檢查">【052-4】UTF-8 BOM 檢查</a></li>
   <li><a href="#trailing-whitespaceleading-whitespace-行尾行前空白檢查" id="toc-trailing-whitespaceleading-whitespace-行尾行前空白檢查" class="nav-link" data-scroll-target="#trailing-whitespaceleading-whitespace-行尾行前空白檢查">【052-4】Trailing Whitespace、Leading Whitespace 行尾行前空白檢查</a></li>
-  <li><a href="#tls-檢查" id="toc-tls-檢查" class="nav-link" data-scroll-target="#tls-檢查">【052-5】TLS 檢查</a></li>
-  <li><a href="#brower-tls-檢查" id="toc-brower-tls-檢查" class="nav-link" data-scroll-target="#brower-tls-檢查">【052-5】Brower TLS 檢查</a></li>
+  <li><a href="#transport-layer-security-檢查" id="toc-transport-layer-security-檢查" class="nav-link" data-scroll-target="#transport-layer-security-檢查">【052-5】Transport Layer Security 檢查</a></li>
+  <li><a href="#brower-transport-layer-security-檢查" id="toc-brower-transport-layer-security-檢查" class="nav-link" data-scroll-target="#brower-transport-layer-security-檢查">【052-5】Brower Transport Layer Security 檢查</a></li>
+  <li><a href="#brower-最終支援-windows-版本" id="toc-brower-最終支援-windows-版本" class="nav-link" data-scroll-target="#brower-最終支援-windows-版本">【052-6】Brower 最終支援 Windows 版本</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -558,28 +565,43 @@ https://dobon.net/vb/dotnet/string/trim.html</code></pre>
 https://dobon.net/vb/dotnet/string/replace.html</code></pre>
 <p>﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</p>
 </section>
-<section id="tls-檢查" class="level3">
-<h3 class="anchored" data-anchor-id="tls-檢查">【052-5】TLS 檢查</h3>
+<section id="transport-layer-security-檢查" class="level3">
+<h3 class="anchored" data-anchor-id="transport-layer-security-檢查">【052-5】Transport Layer Security 檢查</h3>
+<p>2020年終止支援TLS 1.0及1.1版，最低要求TLS 1.2</p>
 <p>Windows 11 預設已啟用 TLS 1.3，使用 Windows 11 無需變更設定。Windows 10 預設未啟用 TLS 1.3，如需要使用支援 TLS 1.3 的網路應用程式，則需要在 Windows 10 中啟用 TLS 1.3。</p>
 <ul>
 <li>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols</li>
 <li>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.3\Client</li>
 </ul>
 </section>
-<section id="brower-tls-檢查" class="level3">
-<h3 class="anchored" data-anchor-id="brower-tls-檢查">【052-5】Brower TLS 檢查</h3>
+<section id="brower-transport-layer-security-檢查" class="level3">
+<h3 class="anchored" data-anchor-id="brower-transport-layer-security-檢查">【052-5】Brower Transport Layer Security 檢查</h3>
 <p>▍ FireFox：</p>
-<p>版本26</p>
 <pre><code>about:config
 firefox security.tls.version.min
 firefox security.tls.version.max</code></pre>
 <p>﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</p>
 <p>▍ chrome：</p>
-<p>版本71</p>
 <pre><code>chrome://flags/#tls13-variant</code></pre>
 <p>﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</p>
 <p>▍ edge：</p>
 <pre><code>internet properties/Advanced/use TLS 1.2</code></pre>
+</section>
+<section id="brower-最終支援-windows-版本" class="level3">
+<h3 class="anchored" data-anchor-id="brower-最終支援-windows-版本">【052-6】Brower 最終支援 Windows 版本</h3>
+<p>▍ FireFox：</p>
+<ul>
+<li>Windows XP:116.0</li>
+</ul>
+<p>﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</p>
+<p>▍ chrome：</p>
+<ul>
+<li>Windows XP:49.0.2623.112</li>
+<li>Windows 7:109.0.5414.120</li>
+<li>Windows 8:109.0.5414.120</li>
+<li>Windows 8.1:109.0.5414.120</li>
+</ul>
+<p>﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍</p>
 
 
 </section>
