@@ -59,6 +59,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -291,7 +294,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#基礎" id="toc-基礎" class="nav-link active" data-scroll-target="#基礎">【01】基礎</a></li>
+  <li><a href="#預設值" id="toc-預設值" class="nav-link" data-scroll-target="#預設值">【02】預設值</a>
+  <ul class="collapse">
+  <li><a href="#rules-of-debit-and-credit-excel借貸平衡" id="toc-rules-of-debit-and-credit-excel借貸平衡" class="nav-link" data-scroll-target="#rules-of-debit-and-credit-excel借貸平衡">【021】rules of debit and credit Excel借貸平衡</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -319,8 +332,117 @@ ul.task-list li input[type="checkbox"] {
 <figcaption class="figure-caption">主畫面</figcaption>
 </figure>
 </div>
+<section id="基礎" class="level1">
+<h1>【01】基礎</h1>
+<ul>
+<li>Database資料庫:
+<ul>
+<li>V24.00.09:Firebird 2.1.2.18118<br> <span style="color: darkblue;">&lt;■ kirigakuretora：113年度&gt;</span></li>
+<li>V18.12.04:Firebird 2.1.2.18118<br> <span style="color: darkblue;">&lt;■ kirigakuretora：107年度&gt;</span></li>
+<li>V19.20c:Firebird 2.1.2.18118<br></li>
+<li>V16.10c:Firebird 2.1.2.18118<br></li>
+<li>V14.20</li>
+<li>V13.20<br> <span style="color: darkblue;">&lt;■ kirigakuretora：104年度&gt;</span></li>
+<li>V11.40:Firebird 2.1.2.10818<br> <span style="color: darkblue;">&lt;■ kirigakuretora：99年度&gt;</span></li>
+</ul></li>
+<li>操作畫面
+<ul>
+<li><p>V24.00.09</p>
+<p>F2日常帳務新增上傳數位雲、年度結帳</p>
+<p>F2日常帳務</p></li>
+</ul></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[A.傳票輸入] --&gt; B[B.整合傳票輸入]
+  A --&gt; C[C.同項目傳票輸入]
+  A --&gt; D[D.末存金額盤點]
+  A --&gt; E[E.預兌預兌日輸入]
+  A --&gt; F[F.票據自動兌現]
+  A --&gt;G[G.票據自動兌現]
+  A --&gt;H[H.財產明細]
+  A --&gt;I[I.出售報廢退回]
+  A --&gt;J[J.財產折舊\未攤銷過帳]
+  A --&gt;K[K.進銷單維護]
+  A --&gt;L[L.整合進銷單維護]
+  A --&gt;M[M.銷貨成本計算]
+  A --&gt;N[N.報表]
+  A --&gt;O[O.報表]
+  A --&gt;P[P.報表]
+  A --&gt;Q[Q.報表]
+  A --&gt;R[R.成本分析]
+  A --&gt;S[S.速算成本]
+  A --&gt;T[T.分階成本]
+  A --&gt;U[U.檢核]
+  A --&gt;V[V.OCI]
+  A --&gt;W[W.電子帳簿]
+  A --&gt;X[V.數位憑證]
+  A --&gt;Y[W.數位文件]  
+</pre>
+</div>
+</div>
+</div>
+</div>
+<ul>
+<li><p>V18.12.04</p>
+<p>F2日常帳務</p></li>
+</ul>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[A.傳票輸入] --&gt; B[B.整合傳票輸入]
+  A --&gt; C[C.同項目傳票輸入]
+  A --&gt; D[D.末存金額盤點]
+  A --&gt; E[E.預兌預兌日輸入]
+  A --&gt; F[F.票據自動兌現]
+  A --&gt; G[G.票據自動兌現]
+  A --&gt; H[H.財產明細]
+  A --&gt; I[I.出售報廢退回]
+  A --&gt; J[J.財產折舊\未攤銷過帳]
+  A --&gt; K[K.進銷單維護]
+  A --&gt; L[L.整合進銷單維護]
+  A --&gt; M[M.銷貨成本計算]
+  A --&gt; N[N.報表]
+  A --&gt; O[O.報表]
+  A --&gt; P[P.報表]
+  A --&gt; Q[Q.報表]
+  A --&gt; R[R.成本分析]
+  A --&gt; S[S.速算成本]
+  A --&gt; T[T.分階成本]
+  A --&gt; U[U.檢核]
+  A --&gt; V[V.OCI]
+  A --&gt; W[W.電子帳簿]
+</pre>
+</div>
+</div>
+</div>
+</div>
+<ul>
+<li>V11.40</li>
+</ul>
+<p>會計總帳線上流程頁面</p>
+<ul>
+<li>衍生系統:
+<ul>
+<li>WCPA事務所資源整合管理系統</li>
+</ul></li>
+</ul>
+</section>
+<section id="預設值" class="level1">
+<h1>【02】預設值</h1>
+<section id="rules-of-debit-and-credit-excel借貸平衡" class="level2">
+<h2 class="anchored" data-anchor-id="rules-of-debit-and-credit-excel借貸平衡">【021】rules of debit and credit Excel借貸平衡</h2>
+<pre><code> H2+H6+H3+H4=H5
+ 借方+....=貸方</code></pre>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
