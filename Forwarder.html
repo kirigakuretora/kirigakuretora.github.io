@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>website - 營業稅申報</title>
+<title>website - 報關申報</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,9 +62,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="website - 營業稅申報">
+<meta property="og:title" content="website - 報關申報">
 <meta property="og:description" content="Kirigakuretora （霧隠虎） ,Is a software development , focuses are dotnet and various web technologies.">
-<meta property="og:image" content="SalesTax02.jpg">
 <meta property="og:site-name" content="<a href='/index.html'>website</a>">
 </head>
 
@@ -77,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./EnterpriseIncomeTax.html">【A】申報作業</a></li><li class="breadcrumb-item"><a href="./SalesTax.html">營業稅申報</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./EnterpriseIncomeTax.html">【A】申報作業</a></li><li class="breadcrumb-item"><a href="./Forwarder.html">報關申報</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -128,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./SalesTax.html" class="sidebar-item-text sidebar-link active">
+  <a href="./SalesTax.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">營業稅申報</span></a>
   </div>
 </li>
@@ -152,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Forwarder.html" class="sidebar-item-text sidebar-link">
+  <a href="./Forwarder.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">報關申報</span></a>
   </div>
 </li>
@@ -296,26 +295,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#申報期間" id="toc-申報期間" class="nav-link active" data-scroll-target="#申報期間">【01】申報期間</a>
+  <li><a href="#書面資料" id="toc-書面資料" class="nav-link active" data-scroll-target="#書面資料">【04】書面資料</a>
   <ul class="collapse">
-  <li><a href="#申報進銷項目" id="toc-申報進銷項目" class="nav-link" data-scroll-target="#申報進銷項目">【011】申報進銷項目</a></li>
-  <li><a href="#電子發票配號作業" id="toc-電子發票配號作業" class="nav-link" data-scroll-target="#電子發票配號作業">【012】電子發票配號作業</a></li>
-  </ul></li>
-  <li><a href="#稅局公文" id="toc-稅局公文" class="nav-link" data-scroll-target="#稅局公文">【02】稅局公文</a></li>
-  <li><a href="#書面資料" id="toc-書面資料" class="nav-link" data-scroll-target="#書面資料">【04】書面資料</a>
-  <ul class="collapse">
-  <li><a href="#統一發票英文字軌組" id="toc-統一發票英文字軌組" class="nav-link" data-scroll-target="#統一發票英文字軌組">【041】統一發票英文字軌組</a></li>
   <li><a href="#申報書" id="toc-申報書" class="nav-link" data-scroll-target="#申報書">【042】申報書</a></li>
-  </ul></li>
-  <li><a href="#網路服務申辦" id="toc-網路服務申辦" class="nav-link" data-scroll-target="#網路服務申辦">【05】網路服務申辦</a>
-  <ul class="collapse">
-  <li><a href="#線上網站" id="toc-線上網站" class="nav-link" data-scroll-target="#線上網站">【051】線上網站</a></li>
-  <li><a href="#預設值" id="toc-預設值" class="nav-link" data-scroll-target="#預設值">【052】預設值</a>
-  <ul class="collapse">
-  <li><a href="#代收票據紀錄簿" id="toc-代收票據紀錄簿" class="nav-link" data-scroll-target="#代收票據紀錄簿">【052-1】代收票據紀錄簿</a></li>
-  <li><a href="#rounding-四捨五入無條件進位無條件捨去四捨六入五成雙" id="toc-rounding-四捨五入無條件進位無條件捨去四捨六入五成雙" class="nav-link" data-scroll-target="#rounding-四捨五入無條件進位無條件捨去四捨六入五成雙">【052-2】Rounding 四捨五入、無條件進位、無條件捨去、四捨六入五成雙</a></li>
-  <li><a href="#專案作廢申請留抵稅額" id="toc-專案作廢申請留抵稅額" class="nav-link" data-scroll-target="#專案作廢申請留抵稅額">【052-3】專案作廢申請留抵稅額</a></li>
-  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -325,7 +307,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">營業稅申報</h1>
+<h1 class="title">報關申報</h1>
 </div>
 
 
@@ -340,389 +322,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<!--
-![樣式1：申報書樣式](SalesTax01.jpg){weight=25%}
--->
-<section id="申報期間" class="level1">
-<h1>【01】申報期間</h1>
-<section id="申報進銷項目" class="level2">
-<h2 class="anchored" data-anchor-id="申報進銷項目">【011】申報進銷項目</h2>
-<ul>
-<li>401表：一般營業人，每年1月、3月、5月、7月、9月、11月，15日前。</li>
-<li>403表：一般營業人有其他營業外理財商品收入支出，每年1月、3月、5月、7月、9月、11月，15日前。</li>
-<li>404表：金融業營業人，較少見。</li>
-<li>405表：小額營業人，每年3月、6月、9月、12月，15日前。</li>
-</ul>
-</section>
-<section id="電子發票配號作業" class="level2">
-<h2 class="anchored" data-anchor-id="電子發票配號作業">【012】電子發票配號作業</h2>
-<ul>
-<li>首次年配資格之營業人，每年11月。</li>
-<li>具年配資格之營業人，每年12月初，前一年度字軌號碼無本數異動需求營業人優先前一年度字軌號碼有異動需求營業人。</li>
-<li>具期配資格之營業人，每年12月中。</li>
-</ul>
-</section>
-</section>
-<section id="稅局公文" class="level1">
-<h1>【02】稅局公文</h1>
-<ul>
-<li>財政部
-<ul>
-<li>台財資字第1100002250號<br> (檢送營利事業統一編號(下稱統一編號)檢查碼邏輯說明修正各1份，請依旨揭函文辦理，請查照。) <span style="color: darkblue;">&lt;■ kirigakuretora：營利事業統一編號檢查碼邏輯&gt;</span></li>
-<li>台財稅字第10804570280號<br> <span style="color: darkblue;">&lt;■ kirigakuretora：計算機統一發票於110年1月1日起停止使用&gt;</span><br> <span style="color: darkred;">&lt;! kirigakuretora：字軌組自110年起變更，不再配發計算機統一發票發票字軌&gt;</span></li>
-<li>台財稅字第10504604020號<br> <span style="color: darkblue;">&lt;■ kirigakuretora：計算機統一發票停止使用&gt;</span></li>
-<li>台財稅第7551092號<br> (汽車路線貨運業開立統一發票，准予簡寫託運人名稱)<br> <span style="color: darkblue;">&lt;■ kirigakuretora：統一編號正確，可使用明確營業人公司簡稱&gt;</span></li>
-</ul></li>
-<li>主計處
-<ul>
-<li>主會財字第1121500937A號<br> (檢送修正之「經費結報常見疑義問答集」1份，並請加強宣導朝簡化行政方向辦理，請查照。)<br> <span style="color: darkblue;">&lt;■ kirigakuretora：普通收據或統一發票買受人以簡稱載明，若不致產生疑慮，無須請廠商更正&gt;</span> <br> <span style="color: darkblue;">&lt;■ kirigakuretora：電子發票免蓋統一發票章&gt;</span><br> <span style="color: darkblue;">&lt;■ kirigakuretora：電子發票發票證明聯經辦人無須簽名&gt;</span></li>
-</ul></li>
-</ul>
-</section>
 <section id="書面資料" class="level1">
 <h1>【04】書面資料</h1>
-<section id="統一發票英文字軌組" class="level2">
-<h2 class="anchored" data-anchor-id="統一發票英文字軌組">【041】統一發票英文字軌組</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="SalesTax02.jpg" class="img-fluid figure-img" data-weight="25%"></p>
-<figcaption class="figure-caption">書面1：統一發票英文字軌組書面</figcaption>
-</figure>
-</div>
-<p>表1：統一發票英文字軌組</p>
-<table class="table">
-<colgroup>
-<col style="width: 100%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">欄位名稱</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">● (1) 月份<br>● (2A) 乙種統一發票字軌；二聯式發票、二聯式加副聯發票<br>● (2B) 甲種統一發票字軌；三聯式發票、三聯式加副聯發票<br>● (3A) 甲種統一發票字軌；三聯式收銀機發票 <br>● (3B) 乙種統一發票字軌；二聯式收銀機發票<br>● (4A) 甲種統一發票字軌；非適用一般稅額特種二聯發票<br>● (4B) 丙種統一發票字軌；營業人自行印製二聯收銀機發票<br>● (5) 丁種統一發票字軌；電子發票</td>
-</tr>
-</tbody>
-</table>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: center;">(1)</th>
-<th style="text-align: center;">(2A)</th>
-<th style="text-align: center;">(2B)</th>
-<th style="text-align: center;">(3A)</th>
-<th style="text-align: center;">(3B)</th>
-<th style="text-align: center;">(4A)</th>
-<th style="text-align: center;">(4B)</th>
-<th style="text-align: center;">(5)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">11201</td>
-<td style="text-align: center;">JA~JA</td>
-<td style="text-align: center;">HY~HY</td>
-<td style="text-align: center;">HZ~HZ</td>
-<td style="text-align: center;">JB~JD</td>
-<td style="text-align: center;">JA~JA</td>
-<td style="text-align: center;">KX~KX</td>
-<td style="text-align: center;">JE~KW</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11202</td>
-<td style="text-align: center;">JA~JA</td>
-<td style="text-align: center;">HY~HY</td>
-<td style="text-align: center;">HZ~HZ</td>
-<td style="text-align: center;">JB~JD</td>
-<td style="text-align: center;">JA~JA</td>
-<td style="text-align: center;">KX~KX</td>
-<td style="text-align: center;">JE~KW</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11203</td>
-<td style="text-align: center;">LA~LA</td>
-<td style="text-align: center;">KY~KY</td>
-<td style="text-align: center;">KZ~KZ</td>
-<td style="text-align: center;">LB~LD</td>
-<td style="text-align: center;">LA~LA</td>
-<td style="text-align: center;">MX~MX</td>
-<td style="text-align: center;">LE~MW</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11204</td>
-<td style="text-align: center;">LA~LA</td>
-<td style="text-align: center;">KY~KY</td>
-<td style="text-align: center;">KZ~KZ</td>
-<td style="text-align: center;">LB~LD</td>
-<td style="text-align: center;">LA~LA</td>
-<td style="text-align: center;">MX~MX</td>
-<td style="text-align: center;">LE~MW</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11205</td>
-<td style="text-align: center;">NA~NA</td>
-<td style="text-align: center;">MY~MY</td>
-<td style="text-align: center;">MZ~MZ</td>
-<td style="text-align: center;">NB~ND</td>
-<td style="text-align: center;">NA~NA</td>
-<td style="text-align: center;">PX~PX</td>
-<td style="text-align: center;">NE~PW</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11206</td>
-<td style="text-align: center;">NA~NA</td>
-<td style="text-align: center;">MY~MY</td>
-<td style="text-align: center;">MZ~MZ</td>
-<td style="text-align: center;">NB~ND</td>
-<td style="text-align: center;">NA~NA</td>
-<td style="text-align: center;">PX~PX</td>
-<td style="text-align: center;">NE~PW</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11207</td>
-<td style="text-align: center;">QA~QA</td>
-<td style="text-align: center;">PY~PY</td>
-<td style="text-align: center;">PZ~PZ</td>
-<td style="text-align: center;">QB~QD</td>
-<td style="text-align: center;">QA~QA</td>
-<td style="text-align: center;">RX~RX</td>
-<td style="text-align: center;">QE~RW</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11208</td>
-<td style="text-align: center;">QA~QA</td>
-<td style="text-align: center;">PY~PY</td>
-<td style="text-align: center;">PZ~PZ</td>
-<td style="text-align: center;">QB~QD</td>
-<td style="text-align: center;">QA~QA</td>
-<td style="text-align: center;">RX~RX</td>
-<td style="text-align: center;">QE~RW</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11209</td>
-<td style="text-align: center;">SA~SA</td>
-<td style="text-align: center;">RY~RY</td>
-<td style="text-align: center;">RZ~RZ</td>
-<td style="text-align: center;">SB~SD</td>
-<td style="text-align: center;">SA~SA</td>
-<td style="text-align: center;">TX~TX</td>
-<td style="text-align: center;">SE~TW</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11210</td>
-<td style="text-align: center;">SA~SA</td>
-<td style="text-align: center;">RY~RY</td>
-<td style="text-align: center;">RZ~RZ</td>
-<td style="text-align: center;">SB~SD</td>
-<td style="text-align: center;">SA~SA</td>
-<td style="text-align: center;">TX~TX</td>
-<td style="text-align: center;">SE~TW</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11211</td>
-<td style="text-align: center;">UA~UA</td>
-<td style="text-align: center;">TY~TY</td>
-<td style="text-align: center;">TZ~TZ</td>
-<td style="text-align: center;">UB~UD</td>
-<td style="text-align: center;">UA~UA</td>
-<td style="text-align: center;">VX~VX</td>
-<td style="text-align: center;">UE~VW</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11212</td>
-<td style="text-align: center;">UA~UA</td>
-<td style="text-align: center;">TY~TY</td>
-<td style="text-align: center;">TZ~TZ</td>
-<td style="text-align: center;">UB~UD</td>
-<td style="text-align: center;">UA~UA</td>
-<td style="text-align: center;">VX~VX</td>
-<td style="text-align: center;">UE~VW</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11301</td>
-<td style="text-align: center;">WA~WA</td>
-<td style="text-align: center;">VY~VY</td>
-<td style="text-align: center;">VZ~VZ</td>
-<td style="text-align: center;">WB~WD</td>
-<td style="text-align: center;">WA~WA</td>
-<td style="text-align: center;">XW~XW</td>
-<td style="text-align: center;">WE~XV</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11302</td>
-<td style="text-align: center;">WA~WA</td>
-<td style="text-align: center;">VY~VY</td>
-<td style="text-align: center;">VZ~VZ</td>
-<td style="text-align: center;">WB~WD</td>
-<td style="text-align: center;">WA~WA</td>
-<td style="text-align: center;">XW~XW</td>
-<td style="text-align: center;">WE~XV</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11303</td>
-<td style="text-align: center;">XZ~XZ</td>
-<td style="text-align: center;">XX~XX</td>
-<td style="text-align: center;">XY~XY</td>
-<td style="text-align: center;">YA~YC</td>
-<td style="text-align: center;">XZ~XZ</td>
-<td style="text-align: center;">ZV~ZV</td>
-<td style="text-align: center;">YD~ZU</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11304</td>
-<td style="text-align: center;">XZ~XZ</td>
-<td style="text-align: center;">XX~XX</td>
-<td style="text-align: center;">XY~XY</td>
-<td style="text-align: center;">YA~YC</td>
-<td style="text-align: center;">XZ~XZ</td>
-<td style="text-align: center;">ZV~ZV</td>
-<td style="text-align: center;">YD~ZU</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11305</td>
-<td style="text-align: center;">ZY~ZY</td>
-<td style="text-align: center;">ZW~ZW</td>
-<td style="text-align: center;">ZX~ZX</td>
-<td style="text-align: center;">ZZ~AB</td>
-<td style="text-align: center;">ZY~ZY</td>
-<td style="text-align: center;">BV~BV</td>
-<td style="text-align: center;">AC~BU</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11306</td>
-<td style="text-align: center;">ZY~ZY</td>
-<td style="text-align: center;">ZW~ZW</td>
-<td style="text-align: center;">ZX~ZX</td>
-<td style="text-align: center;">ZZ~AB</td>
-<td style="text-align: center;">ZY~ZY</td>
-<td style="text-align: center;">BV~BV</td>
-<td style="text-align: center;">AC~BU</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11307</td>
-<td style="text-align: center;">BY~BY</td>
-<td style="text-align: center;">BW~BW</td>
-<td style="text-align: center;">BX~BX</td>
-<td style="text-align: center;">BZ~CB</td>
-<td style="text-align: center;">BY~BY</td>
-<td style="text-align: center;">DU~DU</td>
-<td style="text-align: center;">CC~DT</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11308</td>
-<td style="text-align: center;">BY~BY</td>
-<td style="text-align: center;">BW~BW</td>
-<td style="text-align: center;">BX~BX</td>
-<td style="text-align: center;">BZ~CB</td>
-<td style="text-align: center;">BY~BY</td>
-<td style="text-align: center;">DU~DU</td>
-<td style="text-align: center;">CC~DT</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11309</td>
-<td style="text-align: center;">DX~DX</td>
-<td style="text-align: center;">DV~DV</td>
-<td style="text-align: center;">DW~DW</td>
-<td style="text-align: center;">DY~EA</td>
-<td style="text-align: center;">DX~DX</td>
-<td style="text-align: center;">FT~FT</td>
-<td style="text-align: center;">EB~FS</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11310</td>
-<td style="text-align: center;">DX~DX</td>
-<td style="text-align: center;">DV~DV</td>
-<td style="text-align: center;">DW~DW</td>
-<td style="text-align: center;">DY~EA</td>
-<td style="text-align: center;">DX~DX</td>
-<td style="text-align: center;">FT~FT</td>
-<td style="text-align: center;">EB~FS</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11311</td>
-<td style="text-align: center;">FW~FW</td>
-<td style="text-align: center;">FU~FU</td>
-<td style="text-align: center;">FV~FV</td>
-<td style="text-align: center;">FX~FZ</td>
-<td style="text-align: center;">FW~FW</td>
-<td style="text-align: center;">HS~HS</td>
-<td style="text-align: center;">GA~HR</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">11312</td>
-<td style="text-align: center;">FW~FW</td>
-<td style="text-align: center;">FU~FU</td>
-<td style="text-align: center;">FV~FV</td>
-<td style="text-align: center;">FX~FZ</td>
-<td style="text-align: center;">FW~FW</td>
-<td style="text-align: center;">HS~HS</td>
-<td style="text-align: center;">GA~HR</td>
-</tr>
-</tbody>
-</table>
-</section>
 <section id="申報書" class="level2">
 <h2 class="anchored" data-anchor-id="申報書">【042】申報書</h2>
-<p>與公司行號日常營業有關：</p>
 <ul>
-<li>營業人使用三聯式統一發票明細表</li>
-<li>營業人使用二聯式統一發票明細表</li>
-<li>公用事業進項憑證明細表(專供雲端發票使用)</li>
-<li>進項憑證封面</li>
-<li>營業人申請電子發票字軌號碼增配</li>
-<li>申請報備遺失統一發票</li>
-<li>申請(增減)按月彙總開立統一發票</li>
-<li>申請統一發票作廢、重開、留抵稅額</li>
-<li>小規模營業人委託行動支付業者申請租稅優惠</li>
-</ul>
-<p>與公司行號設立有關：</p>
-<ul>
-<li>營業稅申報書更正申請書</li>
-<li>營業稅繳款書更正申請書</li>
-<li>營業稅設立登記</li>
-<li>營業稅變更登記</li>
-<li>營業人停業、復業、展延停業登記</li>
-<li>營業稅註銷登記</li>
-</ul>
-</section>
-</section>
-<section id="網路服務申辦" class="level1">
-<h1>【05】網路服務申辦</h1>
-<section id="線上網站" class="level2">
-<h2 class="anchored" data-anchor-id="線上網站">【051】線上網站</h2>
-<ul>
-<li><a href="https://www.einvoice.nat.gov.tw/index">財政部電子發票整合服務平台</a></li>
-</ul>
-</section>
-<section id="預設值" class="level2">
-<h2 class="anchored" data-anchor-id="預設值">【052】預設值</h2>
-<section id="代收票據紀錄簿" class="level3">
-<h3 class="anchored" data-anchor-id="代收票據紀錄簿">【052-1】代收票據紀錄簿</h3>
-<p>多筆支票適用，有次一營業日以前到期的交換票據次交票，到期日當日支票本交票，支票是否與銀行帳戶都屬同一家行庫外埠票細節。</p>
-</section>
-<section id="rounding-四捨五入無條件進位無條件捨去四捨六入五成雙" class="level3">
-<h3 class="anchored" data-anchor-id="rounding-四捨五入無條件進位無條件捨去四捨六入五成雙">【052-2】Rounding 四捨五入、無條件進位、無條件捨去、四捨六入五成雙</h3>
-<p>確認買方計算方式是總額進位，或營業稅稅額進位。</p>
-<p>營業稅稅額優先於總額。</p>
-<p>加值型及非加值型營業稅法第十四條營業人銷售貨物或勞務，除本章第二節另有規定外，均應就銷售額，分別按第七條或第十條規定計算其銷項稅額，尾數不滿通用貨幣一元者，按四捨五入計算。</p>
-</section>
-<section id="專案作廢申請留抵稅額" class="level3">
-<h3 class="anchored" data-anchor-id="專案作廢申請留抵稅額">【052-3】專案作廢申請留抵稅額</h3>
-<p>優先考慮開立折讓單再考慮專案作廢申請留抵稅額。</p>
-<ul>
-<li>專案退稅申請書 1份</li>
-<li>作廢之統一發票正本+影本各 1份</li>
-<li>重開統一發票影本 1份</li>
-<li>作廢之統一發票原申報期之401表 2份</li>
-<li>原申報期稅額繳款證明 2份</li>
-<li>重開統一發票後申報期之401表 2份</li>
-<li>重開統一發票後申報期稅額繳款證明 2份</li>
-<li>加減表之營業稅申報書401表 2份</li>
+<li><p>B1 課稅區售與保稅廠</p></li>
+<li><p>B2 保稅廠相互交易或售與保稅倉</p></li>
+<li><p>B6 保稅廠輸入貨物（原料）</p></li>
+<li><p>B8 保稅廠進口貨物（原料）復出口</p></li>
+<li><p>B9 保稅廠產品出口</p></li>
+<li><p>D1 課稅區售與或退回保稅倉</p></li>
+<li><p>D2 保稅貨出保稅倉進口</p></li>
+<li><p>D3 保稅貨售與保稅倉或物流中心</p></li>
+<li><p>D4 保稅貨退運出口</p></li>
+<li><p>D5 保稅倉貨物出口</p></li>
+<li><p>D6 轉儲其他保稅倉庫之貨物</p></li>
+<li><p>D7 保稅倉相互轉儲或運往保稅廠</p></li>
+<li><p>D8 外貨進保稅倉</p></li>
+<li><p>E2 加工區輸出國外</p></li>
+<li><p>E3 課稅區輸入加工區</p></li>
+<li><p>E6 國外輸入加工區復出口</p></li>
+<li><p>E7 加工區售與他保稅區再加工出口</p></li>
+<li><p>F1 外貨進儲自由港區</p></li>
+<li><p>F2 由港區貨物進口</p></li>
+<li><p>F3 自由港區區內事業間之交易.</p></li>
+<li><p>F4 自由港區與他自由港區、課稅區間之交易</p></li>
+<li><p>F5 自由港區貨物出口</p></li>
+<li><p>G1 外貨進口</p></li>
+<li><p>G2 本地補稅案件</p></li>
+<li><p>G3 外貨復出口</p></li>
+<li><p>G5 國貨出口</p></li>
+<li><p>G7 國貨復進口</p></li>
+<li><p>P1 國內廠售與科園區</p></li>
+<li><p>P2 科園區售與他保稅區再加工出口</p></li>
+<li><p>P5 科園區進口原料復出口</p></li>
+<li><p>P6 科園區成品出口</p></li>
 </ul>
 
 
-</section>
 </section>
 </section>
 
