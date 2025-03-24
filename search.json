@@ -184,70 +184,70 @@
   {
     "objectID": "EnterpriseIncomeTax.html",
     "href": "EnterpriseIncomeTax.html",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "",
     "text": "申報書樣式"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#前一年度會計年度預估暫繳",
     "href": "EnterpriseIncomeTax.html#前一年度會計年度預估暫繳",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "【031】前一年度會計年度預估暫繳",
     "text": "【031】前一年度會計年度預估暫繳\n\\[\n  \\text {(12) 稅額} = \\text {(11) 應納稅額} * 0.50\n\\]"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#同業利潤標準",
     "href": "EnterpriseIncomeTax.html#同業利潤標準",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "【032】同業利潤標準",
     "text": "【032】同業利潤標準\n\\[\n  \\text {(15) 稅額} = \\text {(11) 營業收入} * \\text {(12) 同業利率標準} + \\text {(13) 營業外收益} - \\text {(14) 營業外費損}\n\\]\n\\[\n  \\text {(16) 應納稅額} = \\text {(15) 稅額} * 0.20\n\\]"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#擴大書審純益率標準",
     "href": "EnterpriseIncomeTax.html#擴大書審純益率標準",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "【033】擴大書審純益率標準",
     "text": "【033】擴大書審純益率標準\n\\[\n  \\text {(14) 稅額} = (\\text {(11) 營業收入} + \\text {(12) 營業外收入} )* \\text {(13) 擴大書審申報純益率}\n\\]\n\\[\n  \\text {(16) 應納稅額} = \\text {(15) 稅額} * 0.20\n\\]"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#對照表",
     "href": "EnterpriseIncomeTax.html#對照表",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "【041】對照表",
     "text": "【041】對照表\n\n稅務行業標準分類暨同業利潤標準查詢系統\n各業擴大書審純益率、所得額及同業利潤標準"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#繳款書",
     "href": "EnterpriseIncomeTax.html#繳款書",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "【042】繳款書",
     "text": "【042】繳款書\n\n351、352、353 營利事業所得稅扣繳稅額繳款書\n357 營利事業所得稅結算稅額繳款書\n358 營利事業所得稅結算稅額自動補報補繳繳款書\n355 營利事業所得稅暫繳稅額繳款書: 先【A】申報作業/營利事業所得稅申報後【A】申報作業/稅務調節表\n353 外國平臺業者彙報轉付所得\n353 外國營利事業跨境銷售電子勞務"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#工作流程",
     "href": "EnterpriseIncomeTax.html#工作流程",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "【043】工作流程",
     "text": "【043】工作流程\n\n會計師辦理所得稅查核簽證申報須知"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#申報書紙本差異",
     "href": "EnterpriseIncomeTax.html#申報書紙本差異",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "【044】申報書紙本差異",
-    "text": "【044】申報書紙本差異\n\n113年 &lt;■ kirigakuretora：薪資伙食費扣除額，是否能前112年會計年度適用?&gt;\n111年 &lt;■ kirigakuretora：稅賦減免、產業發展條例&gt;\n\n增加運動產業發展條例及後備軍人召集優待條例申報減免稅額通報單A10-2\n增加生技醫藥公司投資機械設備或系統適用投資抵減稅額明細表A14-1\n增加捐贈職業或業餘運動業及重點運動賽事專戶捐贈費用或後備軍人召集期間薪資費用加成減除明細表A32\n移除外國營利事業於自由貿易港區及國際機場園區內之自由貿易港區從事貨物儲存或簡易加工租稅獎勵表A27-1與A28\n\n110年 &lt;■ kirigakuretora：兩稅合一&gt;\n\n增加110年7月1日以後交易符合110年4月28日修正公布所得稅法第4條之4規定房屋、土地、房屋使用權、預售屋及其坐落基地暨股份或出資額之收入、成本、費用、損失明細表\n增加110年7月1日以後交易符合110年4月28日修正公布所得稅法第24條之5第4項規定房屋、土地之收入、成本、費用、損失明細表"
+    "text": "【044】申報書紙本差異\n\n114年   \n\n增訂所得額暨同業利潤標準。&lt;■ kirigakuretora：搭配財政部 / 台財統字第11111913320號、P-1修訂&gt;\n刪除嚴重特殊傳染性肺炎欄位。\n刪除嚴重特殊傳染性肺炎員工防疫隔離假薪資費用加倍減除申報明細表，A-31。\n刪除財政部獎勵使用電子發票績優營業人實施要點欄位。&lt;■ kirigakuretora：搭配財政部 / 台財稅字第10104609090號&gt;\n刪除中小企業發展條例增僱員工薪資費用加成減除申報明細表，A-19\n增訂書審要點。&lt;■ kirigakuretora：搭配財政部 / 台財稅字第11300677590號&gt;\n\n113年 &lt;■ kirigakuretora：薪資伙食費扣除額，是否能前112年會計年度適用?&gt;\n111年 &lt;■ kirigakuretora：稅賦減免、產業發展條例&gt;\n\n增加運動產業發展條例及後備軍人召集優待條例申報減免稅額通報單A10-2\n增加生技醫藥公司投資機械設備或系統適用投資抵減稅額明細表A14-1\n增加捐贈職業或業餘運動業及重點運動賽事專戶捐贈費用或後備軍人召集期間薪資費用加成減除明細表A32\n移除外國營利事業於自由貿易港區及國際機場園區內之自由貿易港區從事貨物儲存或簡易加工租稅獎勵表A27-1與A28\n\n110年 &lt;■ kirigakuretora：兩稅合一&gt;\n\n增加110年7月1日以後交易符合110年4月28日修正公布所得稅法第4條之4規定房屋、土地、房屋使用權、預售屋及其坐落基地暨股份或出資額之收入、成本、費用、損失明細表\n增加110年7月1日以後交易符合110年4月28日修正公布所得稅法第24條之5第4項規定房屋、土地之收入、成本、費用、損失明細表"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#線上網站",
     "href": "EnterpriseIncomeTax.html#線上網站",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "【051】線上網站",
     "text": "【051】線上網站\n\n財政部電子申報繳稅服務網\n財政部網路繳稅"
   },
   {
     "objectID": "EnterpriseIncomeTax.html#申報應用程式預設值",
     "href": "EnterpriseIncomeTax.html#申報應用程式預設值",
-    "title": "【A2】營利事業所得稅申報",
+    "title": "【A2】營所稅申報",
     "section": "【052】申報應用程式預設值",
     "text": "【052】申報應用程式預設值\n\n【052-1】備份申報檔案預設路徑\n(DriverName):/Data/tmp/（PeaTdb+西元徑年月日時分秒）.trc\n\n\n【052-1】系統預設儲存檔案預設值\nWindows Registry 有以下地方需要檢查：\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folfer\n\n\n【052-2】變更申報檔案純文字檔案預設程式\nWindows Registry 有以下地方需要檢查：\nHKEY_USERS\\S-1-5-21-2971007210-3119629156-231266564-1001_Classes\nHKEY_CURRENT_USER\\Software\\Microsoft\\ApplicationAssociationToasts\nHKEY_CURRENT_USER\\Software\\Microsoft\\CurrentVersion\\Explorer\\FileExts\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\Shell\\Associations\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\UserSignedIn\nHKEY_CURRENT_USER\\Software\\Classes\\申報檔案純文字檔案副檔名_auto_file\nHKEY_CURRENT_USER\\Software\\Classes\\申報檔案純文字檔案副檔名\nRegistry FileExts未指定任何應用程式情境下只有OpenWithList參數，數值為空白\n須檢查是否有Notepad設定\nWindows 10 Registry 有以下地方需要檢查：\nHKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\Roamin\\OpenWith\\FileExts\\申報檔案純文字檔案副檔名\n\n\n【052-3】申報應用程式安裝過程紀錄\n於Cmd執行以下命令：\nPEAINSTALL.exe/Log=“(DriveName):/FolderAddress/LogFileName”\nmsiexec.exe /i File.msi /L*i*w*e*u \"(DriveName):/FolderAddress/LogFileName\" \n\n\n【052-3】dotNet Framework安裝\n安裝申報應用程式前確認使用者環境是否已經安裝以下基礎：\n\n4.81:ndp481-x86-x64-allos-enu\n4.8:ndp48-x86-x64-allos-enu\n4.72:ndp472-kb4054530-x86-x64-allos-enu\n4.71:ndp471-kb4033342-x86-x64-allos-enu\n\nWindows Registry 檢查基礎版本：\n\nHKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\n\nWindows Command 檢查基礎版本：\nreg query \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\"\n\n\n【052-3】dotNet Core Framework安裝\n\n7.0:sdk-7.0.405-windows-x64-installer\n6.0:sdk-6.0.418-windows-x64-installer\n5.0:sdk-5.0.408-windows-x64-installer\n3.1:sdk-3.1.426-windows-x86-installer\n3.0:sdk-3.0.103-windows-x64-installer\n7.0 runtime:runtime-aspnetcore-7.0.15-windows-x64-installer\n6.0 runtime:runtime-aspnetcore-6.0.26-windows-x64-installer\n5.0 runtime:runtime-aspnetcore-5.0.17-windows-x64-installer\n3.1 runtime:runtime-aspnetcore-3.1.32-windows-x64-installer\n3.0 runtime:runtime-aspnetcore-3.0.3-windows-x64-installer\n\nWindows Command 檢查基礎版本：\ndotnet --version  \ndotnet --list-runtimes\ndotnet --list-sdks  \n\n\n【052-3】rumtime dll安裝\n引導至官方網站下載專用rumtime dll安裝，說明申報安裝程式提供的rumtime dll可能會影響日常作業\n\n\n【052-4】申報檔案純文字檔案編碼變更(Big5轉Utf-8)\n上傳國稅局檔案規格為Utf-8，確認純文字檔案儲存時使用的應用程式為Notepad或者Excel?Notepad預設規格為UTF-16，Excel預設規格為UTF-8\n▍ C#程式寫作注意事項：\n\nsystem.text.encoding\nhttps://learn.microsoft.com/en-us/dotnet/api/system.text.encoding?view=net-7.0 https://dobon.net/vb/dotnet/string/getencodingobject.html\ndotnet Core寫作時，注意system.text.encoding (需要System.Text.Encoding.CodePages)\nhttps://dotblogs.com.tw/supershowwei/2022/02/20/114914 https://learn.microsoft.com/en-us/dotnet/api/system.text.encoding.codepage?view=net-7.0\n\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n▍ VBA程式寫作注意事項：\n\nADODB.Stream (限定UTF-8)\nhttps://learn.microsoft.com/en-us/sql/ado/reference/ado-api/stream-object-properties-methods-and-events?view=sql-server-ver16\nScripting.FileSystemObject\nhttps://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/filesystemobject-object\n\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n\n\n【052-4】UTF-8 BOM 檢查\n專有名詞0xEF 0xBB 0xBF，用以標示檔案是以UTF-8、UTF-16或UTF-32編碼\n▍ C#程式寫作注意事項：\nSystem.Text.Encoding.UTF8Encoding()\nhttps://learn.microsoft.com/en-us/dotnet/api/system.text.utf8encoding?view=net-7.0\nhttps://dobon.net/vb/dotnet/string/getencodingobject.html\ndotNET Core 6之後版本設定無此問題\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n▍ VBA程式寫作注意事項：\nVBA:Position=3\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n\n\n【052-4】Trailing Whitespace、Leading Whitespace 行尾行前空白檢查\n人工製作Notepad、Excel CSV檔案匯入時將不必要Character字元給移除\n▍ C#程式寫作注意事項：\nSystem.String.TrimStart()\nhttps://learn.microsoft.com/en-us/dotnet/api/system.string.trimstart?view=net-7.0\nhttps://dobon.net/vb/dotnet/string/trim.html\nSystem.String.TrimEnd()\nhttps://learn.microsoft.com/en-us/dotnet/api/system.string.trimend?view=net-7.0\nhttps://dobon.net/vb/dotnet/string/trim.html\nString.Replace()\nhttps://learn.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-7.0\nhttps://dobon.net/vb/dotnet/string/replace.html\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n\n\n【052-5】Transport Layer Security 檢查\n2020年終止支援TLS 1.0及1.1版，最低要求TLS 1.2\nWindows 11 預設已啟用 TLS 1.3，使用 Windows 11 無需變更設定。Windows 10 預設未啟用 TLS 1.3，如需要使用支援 TLS 1.3 的網路應用程式，則需要在 Windows 10 中啟用 TLS 1.3。\n\nHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\nHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\Protocols\\TLS 1.3\\Client\n\n\n\n【052-5】Brower Transport Layer Security 檢查\n▍ FireFox：\nabout:config\nfirefox security.tls.version.min\nfirefox security.tls.version.max\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n▍ chrome：\nchrome://flags/#tls13-variant\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n▍ edge：\ninternet properties/Advanced/use TLS 1.2\n\n\n【052-6】Brower 最終支援 Windows 版本\n▍ FireFox：\n\nWindows XP:116.0\nWindows 7, 8, 8.1: Extended Support Release 115.0 ESR\n\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n▍ chrome：\n\nWindows XP:49.0.2623.112\nWindows 7:109.0.5414.120\nWindows 8:109.0.5414.120\nWindows 8.1:109.0.5414.120\n\n﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍﹍\n\n\n【053】營利事業電子帳簿上傳程式 Software versioning 軟體版本\n109年度起改採西元年度.改版次數版本作為識別\nMajor.Minor.Patch，電子帳簿上傳程式使用Major.Minor，Patch不使用\n手動更新優於自動更新，本年度軟體不可跨年度使用\n開發語言 C++\n打包軟體Inno Setup\n\n112年度: 112.02 1121229 21.8MB\n111年度: 111.52 1120110 17.4MB\n111年度: 111.02 1111020 17.4MB\n110年度: 110.50 1100928 17.3MB\n110年度: 110.01 1100506 17.4MB\n109年度: 109.01 1090507\n109年度: 109.00 1090108 22MB\n107年度: 1.63 1071123 21.2MB\n\n\n\n【054】error receiving data 12030 伺服器連線異常終止\nWebSocket 連線訊息，原文為 WinHttpSendRequest: 12030 Error The connection with the server was terminated abnormally\n主機端進行更新動作造成，建議代理客戶更換時段作業\n\n\n【055】代理客戶電子郵件失效\n原文為 554 30 Sorry, your message to username(a)mailaddress.com cannot be delivered. This mailbox is disabled (554.30).\n確認代理客戶聯絡管道\n\n\n【056】POS機列印二聯發票錯誤\n統一發票章補蓋證明\n記錄POS機型\n\n\n【057】賣方公司名稱異體字\n統一發票章補蓋證明\n記錄繳費來源機機型"
   },
